@@ -7,13 +7,58 @@
 }
 
 .h1,.h2{
+    color: aqua;
     background-color: blueviolet;
 }
 
 
-.ul,.Paiu{
+.ul{
     color: rgb(150, 221, 28);
 }
+.form{
+    color: blanchedalmond;
+    background-color: black;
+ }
+
+
+.li1{
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+ .Name{
+    background-color: bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+ }
+
+
+ .Contenedor1 {
+    background-color: black;
+    width: 50%;
+    height: 90vh;
+ }
+
+ .Contenedor2 {
+    background-color: blue;
+    width: 70%;
+    height: 80vh;
+    margin-top: 10px;
+ }
+
+ .Contenedor3 {
+    background-color: blueviolet;
+    width: 70%;
+    height: 70vh;
+ }
+
+
+ .Contenedor4 {
+    background-color: chocolate;
+    width: 70%;
+    height: 60vh;
+ }
 
 
 /*fotos*/
