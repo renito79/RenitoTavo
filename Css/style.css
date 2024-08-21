@@ -1,65 +1,210 @@
 /*index*/
 .Paiu{
-    color: brown;
-    background-color: #ede62921;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1,.h2{
-    color: aqua;
-    background-color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 
 
 .ul{
     color: rgb(150, 221, 28);
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
 }
-.form{
-    color: blanchedalmond;
-    background-color: black;
- }
-
 
 .li1{
     background-color: aquamarine;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.li1{
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 1em;
+}
 
+.li2{
+   background-color: rgb(228, 98, 211);
+   color: cornsilk;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 1em;
+   flex-basis: 30%;
+}
+
+@media (min-width: 768px) {
+   .ul{
+      color: rgb(150, 221, 28);
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      justify-content: space-evenly;
+   }
+   .li2{
+      background-color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+}
  .Name{
     background-color: bisque;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
  }
 
-
- .Contenedor1 {
-    background-color: black;
-    width: 50%;
-    height: 90vh;
+ .Select{
+   background-color: beige;
+   border: 1px solid rgb(255, 0, 0);
+   border-radius: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 
- .Contenedor2 {
-    background-color: blue;
-    width: 70%;
-    height: 80vh;
-    margin-top: 10px;
+ .Enviar{
+   background-color: rgba(209, 209, 203, 0.8);
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
+ 
+.form{
+   color: blanchedalmond;
+   background-color: black;
+}
 
- .Contenedor3 {
-    background-color: blueviolet;
-    width: 70%;
-    height: 70vh;
- }
+.Form {
+   padding: 1em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 2em;
+   margin-right: 2em;
+   width: 80%;
+   display: grid;
+   gap: 10px;
+}
 
 
- .Contenedor4 {
-    background-color: chocolate;
-    width: 70%;
-    height: 60vh;
- }
+.cards-container{
+   display: grid;
+   gap: 10px;
+}
 
+
+.TÍTULO-GRAL{
+   background-color: black;
+   color: aliceblue;
+   padding: 2px;
+   border: 5px solid rgb(255, 0, 0);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+
+.card{
+   background-color: black;
+   color: aliceblue;
+   padding: 2px;
+   border: 5px solid rgb(255, 0, 0);
+   border-radius: 10px;
+}
+
+
+.card-title{
+   background-color: blueviolet;
+   display: flex;
+   justify-content: center;
+}
+
+.Rutaimg{
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   font-family: cursive;
+   padding: 2px;
+   border: 3px solid rgb(55, 144, 222);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+}
+ 
+
+.Dragón-madera{
+   width: 200px;
+   height: 150px;
+   display: flex;
+   margin: auto;
+}
+
+.taiji-qigong{
+   width: 200px;
+   height: 150px;
+   display: flex;
+   margin: auto;
+}
+
+.Logo-escuela{
+   width: 200px;
+   height: 150px;
+   display: flex;
+   margin: auto;
+}
+
+@media (min-width: 992px){
+   .cards-container{
+      grid-template-columns: 1fr 1fr 1fr;
+      display: grid;
+   }
+   .TÍTULO-GRAL{
+      display: grid;
+      grid-template-columns: 1fr;
+      display: flex;
+      justify-content: center;
+   }
+   .Name{
+      grid-template-rows: 1fr 1fr 1fr;
+      display: grid;
+   }
+}
+
+
+body{
+   margin: 0%;
+   background-image: url(/Imagenes/logo\ huixiang.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-attachment: fixed;
+}
+
+.ul2{
+   color: rgb(221, 28, 179);
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.Footer{
+   background-color: aquamarine;
+}
 
 /*fotos*/
 
