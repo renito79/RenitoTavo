@@ -109,17 +109,15 @@
 }
 
 
-.DIV {
-   background-color: crimson;
-   border: 1px solid black;
-   width: 200px;
-   margin: 20px;
+.YINYANG {
+   width: 350px;
+   margin: 5px;
 }
 
-.DIV{
-   animation: DIV 2s linear infinite;
+.YINYANG{
+   animation: YINYANG 15s linear infinite;
 }
-@keyframes DIV{
+@keyframes YINYANG{
    0%{
       transform: rotate(0deg);
    }
