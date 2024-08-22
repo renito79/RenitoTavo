@@ -42,6 +42,16 @@
    flex-basis: 30%;
 }
 
+.li1:hover, .li2:hover{
+   cursor: pointer;
+   color: black;
+   border: 5px green;
+   box-shadow: 1px 2px 3px 10px rgba(117, 108, 108, 0.536);
+   scale: 1.03;
+   transition: 1000ms;
+}
+
+
 @media (min-width: 768px) {
    .ul{
       color: rgb(150, 221, 28);
@@ -99,9 +109,28 @@
 }
 
 
+.DIV {
+   background-color: crimson;
+   border: 1px solid black;
+   width: 200px;
+   margin: 20px;
+}
+
+.DIV{
+   animation: DIV 2s linear infinite;
+}
+@keyframes DIV{
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+}
+
 .cards-container{
    display: grid;
-   gap: 10px;
+   gap: 20px;
 }
 
 
@@ -122,6 +151,18 @@
    padding: 2px;
    border: 5px solid rgb(255, 0, 0);
    border-radius: 10px;
+   transition: 1000ms;
+   transition-property: background-color;
+}
+
+.card:hover{
+   background-color: rgba(56, 142, 199, 0.761);
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   border: 5px green;
+   box-shadow: 1px 2px 3px 10px rgba(117, 108, 108, 0.536);
+   scale: 1.03;
+   transition: 1000ms;
 }
 
 
