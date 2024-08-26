@@ -6,6 +6,8 @@
 
 .h1,.h2{
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -111,7 +113,9 @@
 
 .YINYANG {
    width: 350px;
-   margin: 5px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
 }
 
 .YINYANG{
@@ -144,9 +148,10 @@
 
 
 .card{
-   background-color: black;
+   background-color: rgba(0, 0, 0, 0.735);
    color: aliceblue;
    padding: 2px;
+   margin: 30px;
    border: 5px solid rgb(255, 0, 0);
    border-radius: 10px;
    transition: 1000ms;
@@ -165,7 +170,7 @@
 
 
 .card-title{
-   background-color: blueviolet;
+   background-color: rgba(137, 43, 226, 0.763);
    display: flex;
    justify-content: center;
 }
@@ -175,10 +180,21 @@
    color: rgb(0, 0, 0);
    font-family: cursive;
    padding: 2px;
+   margin: 50px;
    border: 3px solid rgb(55, 144, 222);
    border-radius: 10px;
    display: flex;
    justify-content: center;
+}
+
+.Rutaimg:hover{
+   background-color: rgba(56, 142, 199, 0.761);
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   border: 5px green;
+   box-shadow: 1px 2px 3px 10px rgba(117, 108, 108, 0.536);
+   scale: 1.03;
+   transition: 500ms;
 }
  
 
@@ -223,10 +239,10 @@
 
 body{
    margin: 0%;
-   background-image: url(/Imagenes/logo\ huixiang.png);
-   background-position: right;
+   background-image: url(/Imagenes/pngtree-ink-landscape-painting-chinese-style-mountain-peak-image_46967.jpg);
+   background-position: center;
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
    background-attachment: fixed;
 }
 
