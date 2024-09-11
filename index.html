@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gimnasia China</title>
     <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul class="ul">
                 <li class="li1">
@@ -24,6 +26,8 @@
                 </li>
                
             </ul>
+
+           
         </nav>
     </header>
 
@@ -49,6 +53,9 @@
             <p class="Párrafo">Nuestra escuela de Gimnasia China "Recordar", en Chino 中国体操学校 “回想”, nace en 2019 en la ciudad de San Nicolás de los Arroyos, Norte de la Prov. de Buenos Aires, Argentina. Comenzamos con prácticas abiertas y gratuitas en parques y espacios verdes de la ciudad durante fines de semana y feriados, y le agregamos la propuesta de clases sistemáticas en espacios e instituciones varias. Aún en Pandemia continuamos virtualidad mediante ofreciendo clases y posibilitando éste compartir de conocimientos para la Salud, para la autooservación y también preservación cultural y memoriosa intrínsecas. Nuestro anhelo es continuar éste compartir y movimiento, de persona en persona, para mantener vigentes los conocimientos tesoro en aras de quienes tengan contacto con ellos encuentren herramientas idóneas para su bienestar, para su resignificación y revalorización en el proceso de vivir. El Arte se comparte y no somos pozos para acumular, somos canales para compartir. Desde ese enfoque, es un deber privilegiado difundir éstas sapiencias, así como éstos saberes y tesoros nacidos en China recorrieron tiempos y espacios múltiples a través de las personas que se comprometieron la vida en ello para que llegue a tantos como nosotros. "Recordar" o la Reminiscencia es ese proceso al que la Vida, con sus devenires, nos lleva, nos interpela e invita a cultivar, ya que en profundidad no se trata de aprender algo nuevo sino de recordar algo que ya sabemos pero que hemos olvidado, la sabiduría de la naturaleza de nuestro cuerpo, su vínculo indisociable con lo que le rodea y la comunicación de dicho vínculo que determina, entre hábitos y comprotamientos cotidianos, nuestro estado de Salud, entendido como un manifiesto de Equilibrio.</p>
         </article>
     </section>
+    <button class="Boton" onclick="Saludar()">你好 Nǐ hǎo Hola</button>
+    <input class="espacio" type="text" id="inp-nombre">
+    <div class="saludo" id="salida-saludo"></div>
 </main>
 
     <a href="Imagenes/logo huixiang.png" target="_blank" class="Rutaimg">Logo HuíXiǎng “回想”</a>
@@ -74,19 +81,17 @@
 
 
     <footer class="Footer">
-        <ul class="ul2">
-            <li class="li3">
-                <a href="">Derechos reservados</a>
-            </li>
-            <li class="li3">
-                <a href=""> Derechos de autor</a>
-            </li>
-            <li class="li3">
-                <a href=""> Términos y condiciones</a>
-            </li>
-        </ul>
+        <h1 class="h5">San Nicolás de los Arroyos, Prov. de Buenos Aires, Argentina</h1>
+        <h2 class="h6">Seguime en mis redes sociales</h2>
+        <div class="ICONOS">
+            <a href="https://www.facebook.com/profile.php?id=100071350683280" target="_blank"><img class="fcbk" src="./Imagenes/Facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/esc.gim.china.huixiang/?fbclid=IwY2xjawEfGH1leHRuA2FlbQIxMAABHXhIOZvM2wShhz9XJqwqtUOYOxZ18C0Je0lCE7PzUUGKetajnFIkRcFw4w_aem_1mP5YzFJ4Yv8Jcs8qALb8w" target="_blank"><img class="inst" src="./Imagenes/Instagram.png" alt=""></a>
+            <a href="https://wa.me/3364023762" target="_blank"><img class="wtsp" src="./Imagenes/Whatsapp.png" alt=""></a>
+        </div>
     </footer>
 
+    <script src="./JavaScript/script.js"></script>
+    
 </body>
 
 </html>

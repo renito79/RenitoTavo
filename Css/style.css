@@ -1,4 +1,9 @@
+*{
+   margin: 0;
+   padding: 0;
+}
 /*index*/
+
 .Paiu{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,7 +117,7 @@
 
 
 .YINYANG {
-   width: 350px;
+   width: 300px;
    display: flex;
    justify-content: center;
    margin: auto;
@@ -129,6 +134,7 @@
       transform: rotate(360deg);
    }
 }
+
 
 .cards-container{
    display: grid;
@@ -212,6 +218,9 @@
    margin: auto;
 }
 
+
+
+
 .Logo-escuela{
    width: 200px;
    height: 150px;
@@ -237,6 +246,22 @@
 }
 
 
+
+.Boton, .espacio ,.saludo {
+   background-color: rgba(199, 56, 56, 0.915);
+   padding: 0%;
+   margin: 5%;
+
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   border: 5px green;
+   box-shadow: 2px 2px 1px 2px rgba(117, 108, 108, 0.536);
+   scale: 1.03;
+   transition: 500ms;
+}
+
+
+
 body{
    margin: 0%;
    background-image: url(/Imagenes/pngtree-ink-landscape-painting-chinese-style-mountain-peak-image_46967.jpg);
@@ -246,19 +271,39 @@ body{
    background-attachment: fixed;
 }
 
-.ul2{
-   color: rgb(221, 28, 179);
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-around;
-}
 
 .Footer{
-   background-color: aquamarine;
+   background-color: rgb(0, 0, 0);
+   margin: auto;
+   width: 100%;
+   color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+}
+
+.h6, .h5{
+   font-size: small;
+   margin: 20px;
+}
+
+.ICONOS{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+
+.fcbk, .inst, .wtsp{
+   width: 40px;
+   height: 40px;
+}
+
+@media (min-width: 768px){
+   .h6{
+      font-size: medium;
+      display: flex;
+      justify-content: center;
+   }
 }
 
 /*fotos*/
